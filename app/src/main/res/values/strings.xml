@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">here-itage</string>
+    <string name="main_defaultsearchtext">Search</string>
+    <string name="login_usernameboxtext">Username</string>
+    <string name="login_logintext">Log In</string>
+    <string name="login_signupbutton">Sign Up</string>
+    <string name="favoritelist_deletebuttontext">Delete</string>
+    <string name="main_optionlist1">Favorites</string>
+    <string name="main_optionlist2">Log Out</string>
+    <string name="main_signindefaulttext">Sign In</string>
+    <string name="login_defaultemailtext">Email</string>
+    <string name="login_Defaultpasswordtext">Password</string>
+    <string name="favoriteslist_backbuttontext"><![CDATA[<- Back]]></string>
+    <string name="default_blanktext" />
+</resources>

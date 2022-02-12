@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ItemActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView_furtherinfo_photo"
+        android:layout_width="99dp"
+        android:layout_height="88dp"
+        android:layout_gravity="right"
+        android:layout_marginHorizontal="10dp"
+        app:srcCompat="@drawable/ic_outline_house_24" />
+
+    <TextView
+        android:id="@+id/textView_furtherinfo_buildingname"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginLeft="10sp"
+        android:text="building name"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/textView_furtherinfo_address"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginBottom="10sp"
+        android:text="address"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView_furtherinfo_description"
+        android:layout_width="340dp"
+        android:layout_height="311dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:text="Description"
+        android:textSize="24sp" />
+
+
+</LinearLayout>
